@@ -1,0 +1,11 @@
+What I did: Aside from taking the source code and making it function like Breakout, I added a modifier that increases the speed of the ball each
+time it hits the paddle, and decreases it each time it breaks a tile. It's a very simple change, but I find it fun because it makes for a very
+hectic time trying to break the last few tiles, without being just a flat speed change.
+
+Structural Changes: I added bounce logic to the ball class, as well as the paddle and tile classes. I also added changes which would allow the
+tiles to be destroyed after being hit twice. I added the BlockManager class as well, which oversees all of the blocks.
+
+State Changes: I didn't need to refactor anything.
+
+Maintainability: I didn't do much to the code's baseline in either direction. I do believe the system I used for the tiles is more stable than
+what I would typically do, however.
